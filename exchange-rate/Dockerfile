@@ -16,7 +16,6 @@ COPY Gemfile.lock ./
 
 RUN bundle install
 
-COPY . .
-# COPY data ./data
-# COPY lib ./lib
-# COPY test ./test
+COPY data ./data
+COPY lib ./lib
+COPY test ./test

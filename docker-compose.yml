@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+    exchange-rate:
+        build: exchange-rate
+        volumes:
+            - ./exchange-rate:/var/app
