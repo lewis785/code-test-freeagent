@@ -4,6 +4,5 @@ tests:
     services:
         - docker:19.03.11-dind
     script:
-        - cd exchange-rate
-        - docker build -t exchange:dev .
+        - docker build -t exchange:dev exchange-rate/
         - docker run exchange:dev bundle exec ruby test/run_tests.rb
