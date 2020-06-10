@@ -65,7 +65,7 @@ class RateCalculator
   #
   # Returns A Float value representing the exchange rate from the starting currency to the end currency
   def from_and_to_non_base_currency(date, from_currency, to_currency)
-    from_currency_to_base_currency(date, from_currency) * currency_rate(date, to_currency)
+    currency_rate(date, to_currency) / currency_rate(date, from_currency)
   end
 
   # Private: retrieves the exchange rate for the specified currency on the specified date
