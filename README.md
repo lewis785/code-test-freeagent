@@ -9,7 +9,7 @@ Please see the INSTRUCTIONS.md file for more information.
 ## Your Solution Setup and Run Instructions
 Clone Repository
 ```console
-git clone https://gitlab.com/lewisfmcn/code-test-freeagent.git
+git clone https://github.com/lewis785/code-test-freeagent.git
 ``` 
 
 #### Use with Docker
