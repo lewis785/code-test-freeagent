@@ -7,7 +7,7 @@ GEM
     test-unit (3.3.0)
       power_assert
     tomparse (0.4.2)
-    yard (0.9.25)
+    yard (0.9.35)
     yard-tomdoc (0.7.1)
       tomparse (>= 0.4.0)
       yard
@@ -19,7 +19,7 @@ DEPENDENCIES
   irb
   mocha (~> 1.11)
   test-unit
-  yard (~> 0.9.25)
+  yard (~> 0.9.35)
   yard-tomdoc (~> 0.7.1)
 
 BUNDLED WITH

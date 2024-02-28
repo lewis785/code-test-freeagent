@@ -10,6 +10,6 @@ gem "irb" if defined?(RUBY_VERSION) && RUBY_VERSION.to_f >= 2.6
 
 gem "mocha", "~> 1.11"
 
-gem "yard", "~> 0.9.25"
+gem "yard", "~> 0.9.35"
 
 gem "yard-tomdoc", "~> 0.7.1"
